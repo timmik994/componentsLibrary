@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 export class RadioButton extends React.Component<RadioButtonProps> {
-
   public render() {
     return (
       <button>
@@ -14,8 +13,5 @@ export class RadioButton extends React.Component<RadioButtonProps> {
 export interface RadioButtonProps {
   // Value passed to onChange.
   value: string;
-}
-
-export interface RadioButtonState {
-
+  children: React.ReactChild;
 }
