@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../styles/radioButton.css';
+import './styles/radioButton.css';
 
 export class FunctionalRadioButton extends React.Component<FunctionalRadioButtonProps> {
   public render() {

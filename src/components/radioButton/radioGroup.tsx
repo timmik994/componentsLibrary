@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { RadioButtonProps } from './radioButton';
 import { FunctionalRadioButton } from './FunctionalRadioButton';
-import '../styles/radioGroup.css';
+import './styles/radioGroup.css';
 
 export class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
   constructor(props: RadioGroupProps) {

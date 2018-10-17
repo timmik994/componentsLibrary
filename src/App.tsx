@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { RadioGroup } from './radioGroup';
-import { RadioButton } from './radioButton';
+import { RadioGroup } from './components/radioButton/radioGroup';
+import { RadioButton } from './components/radioButton/radioButton';
 
 class App extends React.Component<{}, AppState> {
   constructor(props: {}) {
@@ -18,6 +18,7 @@ class App extends React.Component<{}, AppState> {
           <RadioButton value="test1">test 1</RadioButton>
           <RadioButton value="test3">test 3</RadioButton>
           <RadioButton value="test4">test 4</RadioButton>
+          <RadioButton value="test5">test 5</RadioButton>
         </RadioGroup>
         <label>{this.state.value}</label>
       </div>
