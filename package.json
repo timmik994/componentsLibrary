@@ -1,6 +1,6 @@
 {
   "name": "react-components-library-typescript",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "main.js",
   "dependencies": {
     "react": "^16.5.2",
@@ -9,8 +9,7 @@
     "rm": "^0.1.8"
   },
   "files": [
-    "lib",
-    "src/components/radioButton/styles",
+    "lib/components/radioButton",
     "main.js"
   ],
   "types": "main.d.ts",
