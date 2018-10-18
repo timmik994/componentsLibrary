@@ -1,10 +1,7 @@
-packet with react components.
-Now included RadioButton.
-To install run: npm i react-components-library-typescript
+<h1> Packet with react components.</h1>
 
-Example:
-        <RadioGroup value="test" onChanged={(value: string) => alert(value)} >
-          <RadioButton value="test" >test</RadioButton>
-          <RadioButton value="test1">Test 1</RadioButton>
-          <RadioButton value="other">Other value</RadioButton>
-        </RadioGroup>
+<p>Now included RadioButton.</p>
+<p>To install run: npm i react-components-library-typescript</p>
+
+<label>See example at: https://github.com/timmik994/test-npm-package </label>
+
